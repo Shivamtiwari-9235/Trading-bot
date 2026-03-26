@@ -1,0 +1,3 @@
+2026-03-26 12:15:54,844 [INFO] trading_bot: CLI order request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'MARKET', 'quantity': '0.001', 'price': None, 'mode': 'mock', 'base_url': 'https://testnet.binancefuture.com', 'api_key': None, 'api_secret': None, 'log_file': 'logs/bot.log'}
+2026-03-26 12:15:54,846 [INFO] trading_bot: MOCK MODE: Simulated MARKET BUY order for BTCUSDT qty@53934.94
+2026-03-26 12:15:54,847 [INFO] trading_bot: Order response: {'orderId': 96729625, 'status': 'FILLED', 'executedQty': '0.001', 'avgPrice': '53934.94', 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET'}

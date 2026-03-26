@@ -1,0 +1,4 @@
+2026-03-26 12:00:00,000 [INFO] trading_bot: Placing order request: symbol=BTCUSDT side=BUY order_type=MARKET quantity=0.001 price=None stop_price=None
+2026-03-26 12:00:00,125 [DEBUG] trading_bot: HTTP POST https://testnet.binancefuture.com/fapi/v1/order payload={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001, 'timestamp': 1670000000000, 'recvWindow': 5000, 'signature': '...'}
+2026-03-26 12:00:00,205 [DEBUG] trading_bot: HTTP response {'orderId': 1234567, 'status': 'FILLED', 'executedQty': '0.001', 'avgPrice': '42000.0', ...}
+2026-03-26 12:00:00,206 [INFO] trading_bot: Order response: {'orderId': 1234567, 'status': 'FILLED', 'executedQty': '0.001', 'avgPrice': '42000.0', ...}
